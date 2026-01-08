@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Creative Developer</title>
+    <meta name="description" content="A high-end portfolio showcasing creative work and technical expertise.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div id="preloader">
+        <h1 class="preloader-text">
+            <span>A</span><span>Y</span><span>D</span><span>O</span>
+        </h1>
+    </div>
+    <div class="cursor-dot" id="cursor-dot"></div>
+    <div class="cursor-outline" id="cursor-outline"></div>
+
+    <nav class="navbar">
+        <a href="#hero" class="logo">AYDO</a>
+        <div class="nav-links">
+            <a href="#about" class="nav-link">About</a>
+            <a href="#work" class="nav-link">Projects</a>
+            <a href="#contact" class="nav-link">Contact</a>
+            <button id="theme-toggle" class="theme-btn" aria-label="Toggle Dark Mode">
+                <i class="fas fa-sun"></i>
+            </button>
+        </div>
+        <button class="mobile-menu-btn" aria-label="Toggle Menu">
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <header id="hero" class="hero-section">
+        <div class="container hero-container-split">
+
+            <!-- Left Column: Text Content -->
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="reveal-text">Myself <span class="text-accent"> Ayush Dongare</span></span>
+                    <span class="reveal-text">I am a</span>
+                    <span class="typewriter-text" id="typewriter"></span><span class="cursor"></span>
+                </h1>
+                <p class="hero-subtitle reveal-text-delay">
+                    Crafting digital experiences with a focus on motion, aesthetics, and performance.
+                </p>
+                <div class="hero-cta reveal-text-delay">
+                    <a href="#work" class="btn btn-primary">View Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                </div>
+            </div>
+
+            <!-- Right Column: 10 Floating Logos -->
+            <div class="hero-logos">
+                <div class="floating-icons">
+                    <!-- Original 10 -->
+                    <i class="fab fa-html5 icon-float" style="--delay:0s; --pos-x:5%; --pos-y:10%;"></i>
+                    <i class="fab fa-css3-alt icon-float" style="--delay:1s; --pos-x:25%; --pos-y:15%;"></i>
+                    <i class="fab fa-js icon-float" style="--delay:2s; --pos-x:45%; --pos-y:10%;"></i>
+                    <i class="fab fa-react icon-float" style="--delay:3s; --pos-x:65%; --pos-y:20%;"></i>
+                    <i class="fab fa-node icon-float" style="--delay:0.5s; --pos-x:85%; --pos-y:10%;"></i>
+
+                    <i class="fab fa-python icon-float" style="--delay:2.5s; --pos-x:10%; --pos-y:35%;"></i>
+                    <i class="fab fa-java icon-float" style="--delay:1.5s; --pos-x:30%; --pos-y:40%;"></i>
+                    <i class="fab fa-git-alt icon-float" style="--delay:3.5s; --pos-x:70%; --pos-y:35%;"></i>
+                    <i class="fab fa-docker icon-float" style="--delay:0.8s; --pos-x:90%; --pos-y:40%;"></i>
+                    <i class="fab fa-aws icon-float" style="--delay:2.2s; --pos-x:50%; --pos-y:30%;"></i>
+
+                    <!-- New 12 -->
+                    <i class="fab fa-vuejs icon-float" style="--delay:1.2s; --pos-x:15%; --pos-y:60%;"></i>
+                    <i class="fab fa-angular icon-float" style="--delay:3.2s; --pos-x:35%; --pos-y:55%;"></i>
+                    <i class="fab fa-php icon-float" style="--delay:0.3s; --pos-x:55%; --pos-y:65%;"></i>
+                    <i class="fab fa-laravel icon-float" style="--delay:2.8s; --pos-x:75%; --pos-y:55%;"></i>
+                    <i class="fab fa-sass icon-float" style="--delay:1.8s; --pos-x:95%; --pos-y:65%;"></i>
+
+                    <i class="fab fa-bootstrap icon-float" style="--delay:4s; --pos-x:5%; --pos-y:80%;"></i>
+                    <i class="fab fa-linux icon-float" style="--delay:1.5s; --pos-x:25%; --pos-y:90%;"></i>
+                    <i class="fab fa-android icon-float" style="--delay:2.5s; --pos-x:45%; --pos-y:80%;"></i>
+                    <i class="fab fa-apple icon-float" style="--delay:0.7s; --pos-x:65%; --pos-y:90%;"></i>
+                    <i class="fab fa-windows icon-float" style="--delay:3.7s; --pos-x:85%; --pos-y:85%;"></i>
+
+                    <i class="fab fa-npm icon-float" style="--delay:1.0s; --pos-x:20%; --pos-y:50%;"></i>
+                    <i class="fab fa-swift icon-float" style="--delay:2.0s; --pos-x:80%; --pos-y:50%;"></i>
+                </div>
+            </div>
+
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="about-section">
+            <div class="container about-container">
+                <div class="about-image-wrapper">
+                    <img src="user-photo.png" alt="Profile Photo" class="about-photo">
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2 class="section-title">About Me</h2>
+                        <p>I am a creative developer passionate about bridging the gap between design and engineering.
+                            With a keen eye for detail and a love for smooth interactions, I create digital products
+                            that leave a lasting impression.</p>
+                        <p>Specializing in modern web technologies, I focus on performance, accessibility, and
+                            user-centric design.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="work" class="work-section">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <!-- Placeholder for project image -->
+                            <div class="img-placeholder"></div>
+                        </div>
+                        <div class="project-info">
+                            <h3>E-Commerce Platform</h3>
+                            <p>A high-performance online store built with Next.js.</p>
+                            <a href="#" class="project-link">View Case Study</a>
+                        </div>
+                    </article>
+                    <!-- Project 2 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <div class="img-placeholder"></div>
+                        </div>
+                        <div class="project-info">
+                            <h3>Finance Dashboard</h3>
+                            <p>Real-time data visualization for confident trading.</p>
+                            <a href="#" class="project-link">View Case Study</a>
+                        </div>
+                    </article>
+                    <!-- Project 3 -->
+                    <article class="project-card">
+                        <div class="project-image">
+                            <div class="img-placeholder"></div>
+                        </div>
+                        <div class="project-info">
+                            <h3>AI Chat Interface</h3>
+                            <p>Seamless communication with advanced language models.</p>
+                            <a href="#" class="project-link">View Case Study</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2 class="section-title">Let's Talk</h2>
+                <p class="contact-subtitle">Have a project in mind? Let's create something extraordinary.</p>
+                <a href="mailto:hello@example.com" class="email-link">hello@example.com</a>
+                <div class="social-links">
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="#" aria-label="Dribbble"><i class="fab fa-dribbble"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Portfolio. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
