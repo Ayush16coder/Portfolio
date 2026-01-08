@@ -916,9 +916,29 @@ section {
         justify-content: center;
     }
 
-    /* Show only first 4 icons on mobile */
+    /* Show only first 4 icons on mobile with evenly distributed positions */
     .icon-float:nth-child(n+5) {
         display: none;
+    }
+
+    .icon-float:nth-child(1) {
+        left: 20% !important;
+        top: 30% !important;
+    }
+
+    .icon-float:nth-child(2) {
+        left: 70% !important;
+        top: 20% !important;
+    }
+
+    .icon-float:nth-child(3) {
+        left: 30% !important;
+        top: 70% !important;
+    }
+
+    .icon-float:nth-child(4) {
+        left: 80% !important;
+        top: 60% !important;
     }
 
     /* Disable custom cursor on touch devices */
