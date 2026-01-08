@@ -916,6 +916,11 @@ section {
         justify-content: center;
     }
 
+    /* Show only first 4 icons on mobile */
+    .icon-float:nth-child(n+5) {
+        display: none;
+    }
+
     /* Disable custom cursor on touch devices */
     body {
         cursor: auto;
