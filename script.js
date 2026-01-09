@@ -16,10 +16,10 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Check saved preference
-    if (localStorage.getItem('theme') === 'light') {
-        body.classList.add('light-mode');
-        updateIcon();
-    }
+    // if (localStorage.getItem('theme') === 'light') {
+    //     body.classList.add('light-mode');
+    //     updateIcon();
+    // }
 
     themeToggle.addEventListener('click', () => {
         // Add animation class
