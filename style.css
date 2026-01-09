@@ -677,7 +677,7 @@ ul {
 
 /* Sections */
 section {
-    padding: var(--space-xl) 0;
+    padding: 5rem 0;
 }
 
 .section-title {
@@ -773,6 +773,14 @@ section {
 
 .about-content {
     flex: 2;
+}
+
+.about-text .section-title {
+    margin-bottom: 1.5rem;
+}
+
+.about-text p {
+    margin-bottom: 1.5rem;
 }
 
 /* Contact Section */
