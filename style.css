@@ -758,10 +758,13 @@ section {
     max-width: 300px;
     aspect-ratio: 1/1;
     object-fit: cover;
+    object-position: top center;
     border-radius: 50%;
     border: 3px solid var(--accent-color);
     box-shadow: 0 0 30px rgba(212, 175, 55, 0.3);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: radial-gradient(circle at center, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.02));
+    background-color: var(--card-bg);
 }
 
 .about-photo:hover {
