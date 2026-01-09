@@ -696,7 +696,7 @@ section {
 }
 
 .project-card {
-    group: relative;
+    position: relative;
 }
 
 .project-image {
@@ -756,13 +756,12 @@ section {
 .about-photo {
     width: 100%;
     max-width: 300px;
-    height: auto;
+    aspect-ratio: 1/1;
+    object-fit: cover;
     border-radius: 50%;
-    /* Circle or rounded square */
-    border: 2px solid var(--accent-color);
-    box-shadow: 0 0 30px rgba(212, 175, 55, 0.1);
-    filter: grayscale(100%);
-    transition: filter 0.5s ease;
+    border: 3px solid var(--accent-color);
+    box-shadow: 0 0 30px rgba(212, 175, 55, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .about-photo:hover {
