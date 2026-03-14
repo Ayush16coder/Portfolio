@@ -23,7 +23,8 @@
     overflow-x: hidden;
   }
 
-  @media (--mediaMobile), (--mediaMobileLS) {
+  @media (--mediaMobile),
+  (--mediaMobileLS) {
     padding-right: var(--spaceOuter);
     padding-left: var(--spaceOuter);
   }
@@ -114,14 +115,16 @@
 .image {
   position: relative;
   width: 100%;
+  overflow: hidden;
+  border-radius: 16px;
 }
 
 .svg {
   position: absolute;
   right: 0;
   bottom: 0;
-  transform: translate3d(50%, -20%, 0);
-  height: 100%;
+  transform: translate3d(55%, 0, 0);
+  height: 90%;
   z-index: var(--zIndex3);
   opacity: 0;
   transition: opacity var(--durationM) ease var(--durationL);
