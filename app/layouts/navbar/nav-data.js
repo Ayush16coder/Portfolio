@@ -10,8 +10,12 @@ export const navLinks = [
     pathname: '/#details',
   },
   {
-    label: 'Articles',
-    pathname: '/articles',
+    label: 'Experience',
+    pathname: '/experience',
+  },
+  {
+    label: 'Education',
+    pathname: '/education',
   },
   {
     label: 'Contact',
@@ -20,11 +24,6 @@ export const navLinks = [
 ];
 
 export const socialLinks = [
-  {
-    label: 'Bluesky',
-    url: `https://bsky.app/profile/${config.bluesky}`,
-    icon: 'bluesky',
-  },
   {
     label: 'Figma',
     url: `https://www.figma.com/${config.figma}`,

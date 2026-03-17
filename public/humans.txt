@@ -1,25 +1,25 @@
-__  __  __
-\ \ \ \ \/
- \ \/\ \
-  \/  \/
+    ___
+   /   \
+  / ___ \
+ / /   \ \
+/_/     \_\
 
 The humans.txt file explains the team, technology,
 and graphic assets behind this site humanstxt.org.
 
 _______________________________________________________________________________
 
-DESIGNER | デザイナー
+DEVELOPER | デベロッパー
 
-Hamish Williams
+Ayush Dongare
 Hand crafted design & web development
 
 Design tools:
 Figma
-Photoshop
-Blender
+VS Code
 
-twitter.com/hamishmw
-github.com/hamishmw
+github.com/Ayush16Coder
+linkedin.com/in/ayush-dongare-33129431b
 
 _______________________________________________________________________________
 

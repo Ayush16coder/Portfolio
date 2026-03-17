@@ -15,23 +15,45 @@ import { media } from '~/utils/style';
 import katakana from './katakana.svg';
 import styles from './profile.module.css';
 
+const skills = [
+  'HTML',
+  'CSS',
+  'JavaScript',
+  'Python',
+  'Java',
+  'React',
+  'Next.js',
+  'SQL',
+  'Supabase',
+  'Data Analysis',
+];
+
 const ProfileText = ({ visible, titleId }) => (
   <Fragment>
     <Heading className={styles.title} data-visible={visible} level={3} id={titleId}>
       <DecoderText text="Hi there" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      I'm Ayush, a passionate developer who loves building beautiful and functional web
-      experiences. My projects include web development, UI animations, and creative
-      coding. Being comfortable with both design and code allows me to rapidly prototype
-      and validate experiences. If you're interested in the tools and software I use
-      check out my <Link href="/uses">uses page</Link>.
+      I'm Ayush, a BCA student and passionate full-stack developer. My projects span across
+      web development, backend systems, and database-driven applications. Being comfortable 
+      with both design and code allows me to rapidly prototype and build scalable solutions. 
+      If you're interested in the tools and software I use, check out my{' '}
+      <Link href="/uses">uses page</Link>.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      In my spare time I like to explore new technologies, play video games, and work on
-      open source projects. I'm always down for hearing about new projects, so feel free
-      to drop me a line.
+      In my spare time I like to explore new technologies, participate in hackathons (like INNOVO SSGMCE’25!), and work on web solutions that create an impact. I'm always down for hearing about new projects, so feel free to drop me a line.
     </Text>
+    
+    <Heading className={styles.skillsTitle} data-visible={visible} level={4}>
+      Technical Skills
+    </Heading>
+    <div className={styles.skillsList} data-visible={visible}>
+      {skills.map((skill, index) => (
+        <div key={index} className={styles.skillTag}>
+          {skill}
+        </div>
+      ))}
+    </div>
   </Fragment>
 );
 
