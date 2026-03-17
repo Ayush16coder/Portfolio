@@ -10,14 +10,15 @@
       }
     },
     "routeIdToServerBundleId": {
-      "routes/articles.modern-styling-in-react": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
-      "routes/projects.volkihar-knight": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
-      "routes/projects.smart-sparrow": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
-      "routes/articles.hello-world": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
-      "routes/articles_._index": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
-      "routes/projects.slice": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/experience.advanced-python-intern": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/experience.web-development-intern": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/experience.advanced-java-intern": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/experience_._index": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/projects.placewise": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/projects.fasttag": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
       "routes/api.set-theme": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
-      "routes/articles": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/experience": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/education": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
       "routes/contact": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
       "routes/home": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
       "routes/uses": "nodejs-eyJydW50aW1lIjoibm9kZWpzIn0",
@@ -31,56 +32,56 @@
         "file": "app/root.jsx",
         "config": {}
       },
-      "routes/articles.modern-styling-in-react": {
-        "file": "app/routes/articles.modern-styling-in-react.mdx",
-        "id": "routes/articles.modern-styling-in-react",
-        "path": "modern-styling-in-react",
-        "parentId": "routes/articles",
+      "routes/experience.advanced-python-intern": {
+        "file": "app/routes/experience.advanced-python-intern.mdx",
+        "id": "routes/experience.advanced-python-intern",
+        "path": "advanced-python-intern",
+        "parentId": "routes/experience",
         "config": {
           "runtime": "nodejs"
         }
       },
-      "routes/projects.volkihar-knight": {
-        "file": "app/routes/projects.volkihar-knight/route.js",
-        "id": "routes/projects.volkihar-knight",
-        "path": "projects/volkihar-knight",
-        "parentId": "root",
+      "routes/experience.web-development-intern": {
+        "file": "app/routes/experience.web-development-intern.mdx",
+        "id": "routes/experience.web-development-intern",
+        "path": "web-development-intern",
+        "parentId": "routes/experience",
         "config": {
           "runtime": "nodejs"
         }
       },
-      "routes/projects.smart-sparrow": {
-        "file": "app/routes/projects.smart-sparrow/route.js",
-        "id": "routes/projects.smart-sparrow",
-        "path": "projects/smart-sparrow",
-        "parentId": "root",
+      "routes/experience.advanced-java-intern": {
+        "file": "app/routes/experience.advanced-java-intern.mdx",
+        "id": "routes/experience.advanced-java-intern",
+        "path": "advanced-java-intern",
+        "parentId": "routes/experience",
         "config": {
           "runtime": "nodejs"
         }
       },
-      "routes/articles.hello-world": {
-        "file": "app/routes/articles.hello-world.mdx",
-        "id": "routes/articles.hello-world",
-        "path": "hello-world",
-        "parentId": "routes/articles",
-        "config": {
-          "runtime": "nodejs"
-        }
-      },
-      "routes/articles_._index": {
-        "file": "app/routes/articles_._index/route.jsx",
-        "id": "routes/articles_._index",
-        "path": "articles",
+      "routes/experience_._index": {
+        "file": "app/routes/experience_._index/route.jsx",
+        "id": "routes/experience_._index",
+        "path": "experience",
         "index": true,
         "parentId": "root",
         "config": {
           "runtime": "nodejs"
         }
       },
-      "routes/projects.slice": {
-        "file": "app/routes/projects.slice/route.js",
-        "id": "routes/projects.slice",
-        "path": "projects/slice",
+      "routes/projects.placewise": {
+        "file": "app/routes/projects.placewise/route.js",
+        "id": "routes/projects.placewise",
+        "path": "projects/placewise",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/projects.fasttag": {
+        "file": "app/routes/projects.fasttag/route.js",
+        "id": "routes/projects.fasttag",
+        "path": "projects/fasttag",
         "parentId": "root",
         "config": {
           "runtime": "nodejs"
@@ -95,10 +96,19 @@
           "runtime": "nodejs"
         }
       },
-      "routes/articles": {
-        "file": "app/routes/articles/route.jsx",
-        "id": "routes/articles",
-        "path": "articles",
+      "routes/experience": {
+        "file": "app/routes/experience/route.jsx",
+        "id": "routes/experience",
+        "path": "experience",
+        "parentId": "root",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/education": {
+        "file": "app/routes/education/route.jsx",
+        "id": "routes/education",
+        "path": "education",
         "parentId": "root",
         "config": {
           "runtime": "nodejs"
@@ -169,41 +179,41 @@
         "id": "root",
         "file": "root.jsx"
       },
-      "routes/articles.modern-styling-in-react": {
-        "file": "routes/articles.modern-styling-in-react.mdx",
-        "id": "routes/articles.modern-styling-in-react",
-        "path": "modern-styling-in-react",
-        "parentId": "routes/articles"
+      "routes/experience.advanced-python-intern": {
+        "file": "routes/experience.advanced-python-intern.mdx",
+        "id": "routes/experience.advanced-python-intern",
+        "path": "advanced-python-intern",
+        "parentId": "routes/experience"
       },
-      "routes/projects.volkihar-knight": {
-        "file": "routes/projects.volkihar-knight/route.js",
-        "id": "routes/projects.volkihar-knight",
-        "path": "projects/volkihar-knight",
-        "parentId": "root"
+      "routes/experience.web-development-intern": {
+        "file": "routes/experience.web-development-intern.mdx",
+        "id": "routes/experience.web-development-intern",
+        "path": "web-development-intern",
+        "parentId": "routes/experience"
       },
-      "routes/projects.smart-sparrow": {
-        "file": "routes/projects.smart-sparrow/route.js",
-        "id": "routes/projects.smart-sparrow",
-        "path": "projects/smart-sparrow",
-        "parentId": "root"
+      "routes/experience.advanced-java-intern": {
+        "file": "routes/experience.advanced-java-intern.mdx",
+        "id": "routes/experience.advanced-java-intern",
+        "path": "advanced-java-intern",
+        "parentId": "routes/experience"
       },
-      "routes/articles.hello-world": {
-        "file": "routes/articles.hello-world.mdx",
-        "id": "routes/articles.hello-world",
-        "path": "hello-world",
-        "parentId": "routes/articles"
-      },
-      "routes/articles_._index": {
-        "file": "routes/articles_._index/route.jsx",
-        "id": "routes/articles_._index",
-        "path": "articles",
+      "routes/experience_._index": {
+        "file": "routes/experience_._index/route.jsx",
+        "id": "routes/experience_._index",
+        "path": "experience",
         "index": true,
         "parentId": "root"
       },
-      "routes/projects.slice": {
-        "file": "routes/projects.slice/route.js",
-        "id": "routes/projects.slice",
-        "path": "projects/slice",
+      "routes/projects.placewise": {
+        "file": "routes/projects.placewise/route.js",
+        "id": "routes/projects.placewise",
+        "path": "projects/placewise",
+        "parentId": "root"
+      },
+      "routes/projects.fasttag": {
+        "file": "routes/projects.fasttag/route.js",
+        "id": "routes/projects.fasttag",
+        "path": "projects/fasttag",
         "parentId": "root"
       },
       "routes/api.set-theme": {
@@ -212,10 +222,16 @@
         "path": "api/set-theme",
         "parentId": "root"
       },
-      "routes/articles": {
-        "file": "routes/articles/route.jsx",
-        "id": "routes/articles",
-        "path": "articles",
+      "routes/experience": {
+        "file": "routes/experience/route.jsx",
+        "id": "routes/experience",
+        "path": "experience",
+        "parentId": "root"
+      },
+      "routes/education": {
+        "file": "routes/education/route.jsx",
+        "id": "routes/education",
+        "path": "education",
         "parentId": "root"
       },
       "routes/contact": {
